@@ -52,11 +52,11 @@ body{
     text-align: center;
     text-decoration: none;
     font-weight: 500;
-    color: rgb(88, 88, 88);
+    color: #808080;
 }
 
 .navi > li:hover a{
-    font-weight: 700;
+    font-weight: 600;
     color: #313131;
 
     border-bottom: 3px solid #313131;
@@ -304,24 +304,25 @@ main {
 @media screen and (max-width: 639px) {
 
 body {
-    width: 93%;
+    width: 92%;
 }
 
 .logo {
-    margin: 17px auto;
-    width: 216px;
-    height: 40px;
+    margin: 15px auto;
+    width: 200px;
+    height: 37px;
 }
 
 
 .nav {
     width: 20%;
     line-height: 40px;
+    letter-spacing:-0.5px;
 }
 
 
 .nav > a {
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
 
 main {
@@ -329,8 +330,9 @@ main {
 }
 
 .h_1 {
-    margin-top: 140px;
-    font-size: 1.6rem;
+    margin-top: 130px;
+    font-size: 1.45rem;
+    letter-spacing:-1.1px;
 }
 
 
